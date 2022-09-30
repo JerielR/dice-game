@@ -1,3 +1,3 @@
 # Dice Game
 
-Simple dice game using JavaScript that reveals winner upon page refresh.
+Simple dice game using JavaScript that showcases winner upon reroll via button.
