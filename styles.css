@@ -2,12 +2,12 @@
   width: 70%;
   margin: auto;
   text-align: center;
+  position: relative;
 }
 
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -32,10 +32,44 @@ img {
   width: 80%;
 }
 
+.face-container1 .face1 {
+  width: 15%;
+  position: absolute;
+  left: 1px;
+}
+
+.face1 {
+  width: 15%;
+  position: absolute;
+  right: 1px;
+}
+
+.button-container {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.roll-button {
+  height: 70px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.roll-button:active {
+  opacity: 0.7;
+  transition: opacity, .2;
+}
+
 footer {
-  margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
+  margin-top: 30px;
+  font-size: 18px;
 }
+
